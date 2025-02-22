@@ -126,7 +126,8 @@ Se utilizó el **Modo Simulación** de Packet Tracer para capturar paquetes **AR
 
 ### **7.3 Captura de pantalla de la demostración de la captura de un paquete ARP y un ICMP en el modo Simulación.**
 - **Captura 10:**
-  
+  ![image](https://github.com/user-attachments/assets/8054dc6e-9e29-4ebb-b2be-dfcf7c7131db)
+
 
 
 ## **8. Conclusión**
