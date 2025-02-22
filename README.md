@@ -87,11 +87,6 @@ ping 192.168.20.30
 ping 192.168.20.40
 ```
 
-#### **Resultados**
-- ✅ Comunicación entre equipos dentro de la misma VLAN.
-- ✅ Comunicación entre áreas.
-- ✅ Comunicación con todos los hosts de la red.
-
 ## **7. Captura de Paquetes (Modo Simulación)**
 Se utilizó el **Modo Simulación** de Packet Tracer para capturar paquetes **ARP** e **ICMP** y verificar el tráfico de la red.
 
@@ -100,18 +95,38 @@ Se utilizó el **Modo Simulación** de Packet Tracer para capturar paquetes **AR
   ![image](https://github.com/user-attachments/assets/a321f216-cd0c-4338-a710-c2a15115160d)
 
 - **Captura 2:** Configuración de IP en la VPC del área de Diseño Gráfico y Publicidad.
+![image](https://github.com/user-attachments/assets/5e59f21a-4c2d-4836-9b8d-30b07dd51f41)
+
 - **Captura 3:** Configuración de IP en la VPC del área de Renderizado y Modelado 3D.
+![image](https://github.com/user-attachments/assets/4aa9b519-6c2b-4150-ad3b-13dd6e24126a)
+
 - **Captura 4:** Configuración de IP en la VPC del área de Recepción y Administración.
+  ![image](https://github.com/user-attachments/assets/812cc736-aa15-4de1-86c5-1e72641922ee)
+
 - **Captura 5:** Configuración de IP en la VPC del área de Alta Dirección.
+  ![image](https://github.com/user-attachments/assets/216a87d1-39bf-4763-9e52-cf9a51616307)
 
-### **7.2 Captura de Pruebas de Conectividad**
-- **Captura 6:** Prueba de ping entre dispositivos del mismo switch.
-- **Captura 7:** Prueba de ping entre dispositivos de diferentes switches.
-- **Captura 8:** Prueba de conectividad entre diferentes áreas de la red.
 
-### **7.3 Captura de Análisis de Tráfico en Modo Simulación**
-- **Captura 9:** Captura de un paquete **ARP** en tránsito.
-- **Captura 10:** Captura de un paquete **ICMP (Ping)** en tránsito.
+### **7.2 Captura de pings entre hosts**
+- **Captura 6:** Ping entre un host del área de Arquitectura y Urbanismo y un host del área de Diseño Gráfico y Publicidad.
+  ![image](https://github.com/user-attachments/assets/0aaf0189-31a6-418c-a1a0-ba2b6542ea44)
+
+- **Captura 7:** Ping entre un host del área de Diseño Gráfico y Publicidad y un host del área de Renderizado y Modelado 3D.
+  ![image](https://github.com/user-attachments/assets/225ebbc6-064a-45bc-a3e7-1841f859a363)
+
+- **Captura 8:** Ping entre un host del área de Renderizado y Modelado 3D y un host del área de Recepción y Administración.
+  ![image](https://github.com/user-attachments/assets/42a6d693-7fb1-4d33-bf73-e7736cdf7460)
+
+- **Captura 9:** Ping entre un host del área de Recepción y Administración y un host del área de Alta Dirección.
+![image](https://github.com/user-attachments/assets/2210515c-b5cc-449f-aa0d-9b245270090c)
+
+- **Captura 10:** Ping entre un host del área de Alta Dirección y un host del área de Arquitectura y Urbanismo.
+  ![image](https://github.com/user-attachments/assets/153a0f9d-0630-49ce-9727-f2daa2e637d0)
+
+
+### **7.3 Captura de pantalla de la demostración de la captura de un paquete ARP y un ICMP en el modo Simulación.**
+- **Captura 10:**
+  
 
 
 ## **8. Conclusión**
