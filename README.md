@@ -95,9 +95,24 @@ ping 192.168.20.40
 ## **7. Captura de Paquetes (Modo Simulación)**
 Se utilizó el **Modo Simulación** de Packet Tracer para capturar paquetes **ARP** e **ICMP** y verificar el tráfico de la red.
 
-1. **Se filtraron los paquetes ARP e ICMP.**
-2. **Se enviaron pings entre diferentes equipos.**
-3. **Se observó la generación y respuesta de paquetes.**
+### **7.1 Captura de Configuración de las VPCs**
+- **Captura 1:** Configuración de IP en la VPC del área de Arquitectura y Urbanismo.
+  ![image](https://github.com/user-attachments/assets/a321f216-cd0c-4338-a710-c2a15115160d)
+
+- **Captura 2:** Configuración de IP en la VPC del área de Diseño Gráfico y Publicidad.
+- **Captura 3:** Configuración de IP en la VPC del área de Renderizado y Modelado 3D.
+- **Captura 4:** Configuración de IP en la VPC del área de Recepción y Administración.
+- **Captura 5:** Configuración de IP en la VPC del área de Alta Dirección.
+
+### **7.2 Captura de Pruebas de Conectividad**
+- **Captura 6:** Prueba de ping entre dispositivos del mismo switch.
+- **Captura 7:** Prueba de ping entre dispositivos de diferentes switches.
+- **Captura 8:** Prueba de conectividad entre diferentes áreas de la red.
+
+### **7.3 Captura de Análisis de Tráfico en Modo Simulación**
+- **Captura 9:** Captura de un paquete **ARP** en tránsito.
+- **Captura 10:** Captura de un paquete **ICMP (Ping)** en tránsito.
+
 
 ## **8. Conclusión**
 Se logró implementar exitosamente la red cumpliendo con los requerimientos:
@@ -106,9 +121,5 @@ Se logró implementar exitosamente la red cumpliendo con los requerimientos:
 - Pruebas de conectividad exitosas.
 - Análisis de tráfico con el modo simulación.
 
----
 
-**Entrega:** 
-- Subir el archivo `.pkt` a GitHub.
-- Agregar este documento como `README.md` en la carpeta `Practica1` del repositorio.
 
